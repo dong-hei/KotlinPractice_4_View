@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    ScaleType : default가 fitCenter이다. 이미지뷰의 가로던 세로던 이미지가 닿는곳까지 채워준다
+fitXY 이미지뷰를 상하좌우를 꽉차게 만든다
+centercrop 꽉차게 확대시킨후 튀어나온부분은 잘라준다.
+center에 딱맞춰서 보여준다-->
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:background="#AAFF0000"
+        android:scaleType="fitCenter"
+        android:src="@drawable/tesla_logo" />
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    텍스트는 sp를 사용하는데 그 이유: 같은 sp이더라도
+안드로이드 기본설정이 글자크기를 키우게끔 해놓는다면 똑같은 16sp 라도 더 크게 보이게끔 한다-->
+<!--   textStyle 기울이게,굵게 등-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="반가워요. 텍스트 뷰에요!"
+        android:textColor="#D5C9AB"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+</LinearLayout>
